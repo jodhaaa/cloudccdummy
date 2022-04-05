@@ -2,7 +2,7 @@
   "billing": [
     {
       "id": "us",
-	  "currency": "usd"
+	  "currency": "usd",
       "packages": [
 		  {
 			  "name": "Local",
@@ -18,7 +18,7 @@
     },
 	{
       "id": "lk",
-	  "currency": "lkr"
+	  "currency": "lkr",
       "packages": [
 		  {
 			  "name": "Local",
