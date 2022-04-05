@@ -1,7 +1,8 @@
 {
   "billing": [
     {
-      "id": "us",
+      "id": 1,
+	  "country": "us",
 	  "currency": "usd",
       "packages": [
 		  {
@@ -17,7 +18,8 @@
 	  ] 
     },
 	{
-      "id": "lk",
+      "id": 2,
+	  "country": "lk",
 	  "currency": "lkr",
       "packages": [
 		  {
