@@ -1,11 +1,36 @@
 {
-  "posts": [
+  "billing": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "us",
+	  "currency": "usd"
+      "packages": [
+		  {
+			  "name": "Local",
+			  "fixed_cost": 2,
+			  "call_cost": 0.01
+		  },
+		  {
+			  "name": "Toll-free",
+			  "fixed_cost": 1,
+			  "call_cost": 0.01
+		  }
+	  ] 
+    },
+	{
+      "id": "lk",
+	  "currency": "lkr"
+      "packages": [
+		  {
+			  "name": "Local",
+			  "fixed_cost": 200,
+			  "call_cost": 1
+		  },
+		  {
+			  "name": "Toll-free",
+			  "fixed_cost": 500,
+			  "call_cost": 1
+		  }
+	  ] 
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
